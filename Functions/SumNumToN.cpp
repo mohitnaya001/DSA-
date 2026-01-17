@@ -1,3 +1,5 @@
+// calculate the sum of N number
+
 #include <iostream>
 using namespace std;
 
