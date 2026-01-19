@@ -1,3 +1,5 @@
+// calculate the factorial of Number 
+
 #include <iostream>
 using namespace std;
 
