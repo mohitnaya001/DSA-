@@ -1,4 +1,4 @@
-// Decimal To Binary Conversion 
+// One to any number of binary number 
 
 #include <iostream>
 using namespace std;
@@ -15,7 +15,11 @@ int Decimal(int DecNum){
 }
 
 int main(){
-    int DecNum = 50;
-    cout <<Decimal(DecNum)<<endl;
+    int num;
+    cout<<"Enter the Number :";
+    cin >>num;
+    for(int i = 1; i <= num; i++ ){
+        cout <<Decimal(i)<<endl;
+    }
     return 0;
 }
